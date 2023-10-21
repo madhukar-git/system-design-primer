@@ -27,7 +27,7 @@ This repo is an **organized collection** of resources to help you learn how to b
 
 This is a continually updated, open source project.
 
-[Contributions](#contributing) are welcome!
+[Contributions- # ](#contributing) are welcome!
 
 ### Prep for the system design interview
 
@@ -37,11 +37,11 @@ In addition to coding interviews, system design is a **required component** of t
 
 Additional topics for interview prep:
 
-* [Study guide](#study-guide)
-* [How to approach a system design interview question](#how-to-approach-a-system-design-interview-question)
-* [System design interview questions, **with solutions**](#system-design-interview-questions-with-solutions)
-* [Object-oriented design interview questions, **with solutions**](#object-oriented-design-interview-questions-with-solutions)
-* [Additional system design interview questions](#additional-system-design-interview-questions)
+* [Study guide- # ](#study-guide)
+* [How to approach a system design interview question- # ](#how-to-approach-a-system-design-interview-question)
+* [System design interview questions, **with solutions**- # ](#system-design-interview-questions-with-solutions)
+* [Object-oriented design interview questions, **with solutions**- # ](#object-oriented-design-interview-questions-with-solutions)
+* [Additional system design interview questions- # ](#additional-system-design-interview-questions)
 
 ## Anki flashcards
 
@@ -82,7 +82,7 @@ Feel free to submit pull requests to help:
 * Add new sections
 * [Translate- ext ](https://github.com/donnemartin/system-design-primer/issues/28)
 
-Content that needs some polishing is placed [under development](#under-development).
+Content that needs some polishing is placed [under development- # ](#under-development).
 
 Review the [Contributing Guidelines](CONTRIBUTING.md).
 
@@ -97,87 +97,87 @@ Review the [Contributing Guidelines](CONTRIBUTING.md).
   <br/>
 </p>
 
-* [System design topics: start here](#system-design-topics-start-here)
-    * [Step 1: Review the scalability video lecture](#step-1-review-the-scalability-video-lecture)
-    * [Step 2: Review the scalability article](#step-2-review-the-scalability-article)
-    * [Next steps](#next-steps)
-* [Performance vs scalability](#performance-vs-scalability)
-* [Latency vs throughput](#latency-vs-throughput)
-* [Availability vs consistency](#availability-vs-consistency)
-    * [CAP theorem](#cap-theorem)
-        * [CP - consistency and partition tolerance](#cp---consistency-and-partition-tolerance)
-        * [AP - availability and partition tolerance](#ap---availability-and-partition-tolerance)
-* [Consistency patterns](#consistency-patterns)
-    * [Weak consistency](#weak-consistency)
-    * [Eventual consistency](#eventual-consistency)
-    * [Strong consistency](#strong-consistency)
-* [Availability patterns](#availability-patterns)
-    * [Fail-over](#fail-over)
-    * [Replication](#replication)
-    * [Availability in numbers](#availability-in-numbers)
-* [Domain name system](#domain-name-system)
-* [Content delivery network](#content-delivery-network)
-    * [Push CDNs](#push-cdns)
-    * [Pull CDNs](#pull-cdns)
-* [Load balancer](#load-balancer)
-    * [Active-passive](#active-passive)
-    * [Active-active](#active-active)
-    * [Layer 4 load balancing](#layer-4-load-balancing)
-    * [Layer 7 load balancing](#layer-7-load-balancing)
-    * [Horizontal scaling](#horizontal-scaling)
-* [Reverse proxy (web server)](#reverse-proxy-web-server)
-    * [Load balancer vs reverse proxy](#load-balancer-vs-reverse-proxy)
-* [Application layer](#application-layer)
-    * [Microservices](#microservices)
-    * [Service discovery](#service-discovery)
-* [Database](#database)
-    * [Relational database management system (RDBMS)](#relational-database-management-system-rdbms)
-        * [Master-slave replication](#master-slave-replication)
-        * [Master-master replication](#master-master-replication)
-        * [Federation](#federation)
-        * [Sharding](#sharding)
-        * [Denormalization](#denormalization)
-        * [SQL tuning](#sql-tuning)
-    * [NoSQL](#nosql)
-        * [Key-value store](#key-value-store)
-        * [Document store](#document-store)
-        * [Wide column store](#wide-column-store)
-        * [Graph Database](#graph-database)
-    * [SQL or NoSQL](#sql-or-nosql)
-* [Cache](#cache)
-    * [Client caching](#client-caching)
-    * [CDN caching](#cdn-caching)
-    * [Web server caching](#web-server-caching)
-    * [Database caching](#database-caching)
-    * [Application caching](#application-caching)
-    * [Caching at the database query level](#caching-at-the-database-query-level)
-    * [Caching at the object level](#caching-at-the-object-level)
-    * [When to update the cache](#when-to-update-the-cache)
-        * [Cache-aside](#cache-aside)
-        * [Write-through](#write-through)
-        * [Write-behind (write-back)](#write-behind-write-back)
-        * [Refresh-ahead](#refresh-ahead)
-* [Asynchronism](#asynchronism)
-    * [Message queues](#message-queues)
-    * [Task queues](#task-queues)
-    * [Back pressure](#back-pressure)
-* [Communication](#communication)
-    * [Transmission control protocol (TCP)](#transmission-control-protocol-tcp)
-    * [User datagram protocol (UDP)](#user-datagram-protocol-udp)
-    * [Remote procedure call (RPC)](#remote-procedure-call-rpc)
-    * [Representational state transfer (REST)](#representational-state-transfer-rest)
-* [Security](#security)
-* [Appendix](#appendix)
-    * [Powers of two table](#powers-of-two-table)
-    * [Latency numbers every programmer should know](#latency-numbers-every-programmer-should-know)
-    * [Additional system design interview questions](#additional-system-design-interview-questions)
-    * [Real world architectures](#real-world-architectures)
-    * [Company architectures](#company-architectures)
-    * [Company engineering blogs](#company-engineering-blogs)
-* [Under development](#under-development)
-* [Credits](#credits)
-* [Contact info](#contact-info)
-* [License](#license)
+* [System design topics: start here- # ](#system-design-topics-start-here)
+    * [Step 1: Review the scalability video lecture- # ](#step-1-review-the-scalability-video-lecture)
+    * [Step 2: Review the scalability article- # ](#step-2-review-the-scalability-article)
+    * [Next steps- # ](#next-steps)
+* [Performance vs scalability- # ](#performance-vs-scalability)
+* [Latency vs throughput- # ](#latency-vs-throughput)
+* [Availability vs consistency- # ](#availability-vs-consistency)
+    * [CAP theorem- # ](#cap-theorem)
+        * [CP - consistency and partition tolerance- # ](#cp---consistency-and-partition-tolerance)
+        * [AP - availability and partition tolerance- # ](#ap---availability-and-partition-tolerance)
+* [Consistency patterns- # ](#consistency-patterns)
+    * [Weak consistency- # ](#weak-consistency)
+    * [Eventual consistency- # ](#eventual-consistency)
+    * [Strong consistency- # ](#strong-consistency)
+* [Availability patterns- # ](#availability-patterns)
+    * [Fail-over- # ](#fail-over)
+    * [Replication- # ](#replication)
+    * [Availability in numbers- # ](#availability-in-numbers)
+* [Domain name system- # ](#domain-name-system)
+* [Content delivery network- # ](#content-delivery-network)
+    * [Push CDNs- # ](#push-cdns)
+    * [Pull CDNs- # ](#pull-cdns)
+* [Load balancer- # ](#load-balancer)
+    * [Active-passive- # ](#active-passive)
+    * [Active-active- # ](#active-active)
+    * [Layer 4 load balancing- # ](#layer-4-load-balancing)
+    * [Layer 7 load balancing- # ](#layer-7-load-balancing)
+    * [Horizontal scaling- # ](#horizontal-scaling)
+* [Reverse proxy (web server)- # ](#reverse-proxy-web-server)
+    * [Load balancer vs reverse proxy- # ](#load-balancer-vs-reverse-proxy)
+* [Application layer- # ](#application-layer)
+    * [Microservices- # ](#microservices)
+    * [Service discovery- # ](#service-discovery)
+* [Database- # ](#database)
+    * [Relational database management system (RDBMS)- # ](#relational-database-management-system-rdbms)
+        * [Master-slave replication- # ](#master-slave-replication)
+        * [Master-master replication- # ](#master-master-replication)
+        * [Federation- # ](#federation)
+        * [Sharding- # ](#sharding)
+        * [Denormalization- # ](#denormalization)
+        * [SQL tuning- # ](#sql-tuning)
+    * [NoSQL- # ](#nosql)
+        * [Key-value store- # ](#key-value-store)
+        * [Document store- # ](#document-store)
+        * [Wide column store- # ](#wide-column-store)
+        * [Graph Database- # ](#graph-database)
+    * [SQL or NoSQL- # ](#sql-or-nosql)
+* [Cache- # ](#cache)
+    * [Client caching- # ](#client-caching)
+    * [CDN caching- # ](#cdn-caching)
+    * [Web server caching- # ](#web-server-caching)
+    * [Database caching- # ](#database-caching)
+    * [Application caching- # ](#application-caching)
+    * [Caching at the database query level- # ](#caching-at-the-database-query-level)
+    * [Caching at the object level- # ](#caching-at-the-object-level)
+    * [When to update the cache- # ](#when-to-update-the-cache)
+        * [Cache-aside- # ](#cache-aside)
+        * [Write-through- # ](#write-through)
+        * [Write-behind (write-back)- # ](#write-behind-write-back)
+        * [Refresh-ahead- # ](#refresh-ahead)
+* [Asynchronism- # ](#asynchronism)
+    * [Message queues- # ](#message-queues)
+    * [Task queues- # ](#task-queues)
+    * [Back pressure- # ](#back-pressure)
+* [Communication- # ](#communication)
+    * [Transmission control protocol (TCP)- # ](#transmission-control-protocol-tcp)
+    * [User datagram protocol (UDP)- # ](#user-datagram-protocol-udp)
+    * [Remote procedure call (RPC)- # ](#remote-procedure-call-rpc)
+    * [Representational state transfer (REST)- # ](#representational-state-transfer-rest)
+* [Security- # ](#security)
+* [Appendix- # ](#appendix)
+    * [Powers of two table- # ](#powers-of-two-table)
+    * [Latency numbers every programmer should know- # ](#latency-numbers-every-programmer-should-know)
+    * [Additional system design interview questions- # ](#additional-system-design-interview-questions)
+    * [Real world architectures- # ](#real-world-architectures)
+    * [Company architectures- # ](#company-architectures)
+    * [Company engineering blogs- # ](#company-engineering-blogs)
+* [Under development- # ](#under-development)
+* [Credits- # ](#credits)
+* [Contact info- # ](#contact-info)
+* [License- # ](#license)
 
 ## Study guide
 
@@ -207,13 +207,13 @@ Start broad and go deeper in a few areas.  It helps to know a little about vario
 
 | | Short | Medium | Long |
 |---|---|---|---|
-| Read through the [System design topics](#index-of-system-design-topics) to get a broad understanding of how systems work | :+1: | :+1: | :+1: |
-| Read through a few articles in the [Company engineering blogs](#company-engineering-blogs) for the companies you are interviewing with | :+1: | :+1: | :+1: |
-| Read through a few [Real world architectures](#real-world-architectures) | :+1: | :+1: | :+1: |
-| Review [How to approach a system design interview question](#how-to-approach-a-system-design-interview-question) | :+1: | :+1: | :+1: |
-| Work through [System design interview questions with solutions](#system-design-interview-questions-with-solutions) | Some | Many | Most |
-| Work through [Object-oriented design interview questions with solutions](#object-oriented-design-interview-questions-with-solutions) | Some | Many | Most |
-| Review [Additional system design interview questions](#additional-system-design-interview-questions) | Some | Many | Most |
+| Read through the [System design topics- # ](#index-of-system-design-topics) to get a broad understanding of how systems work | :+1: | :+1: | :+1: |
+| Read through a few articles in the [Company engineering blogs- # ](#company-engineering-blogs) for the companies you are interviewing with | :+1: | :+1: | :+1: |
+| Read through a few [Real world architectures- # ](#real-world-architectures) | :+1: | :+1: | :+1: |
+| Review [How to approach a system design interview question- # ](#how-to-approach-a-system-design-interview-question) | :+1: | :+1: | :+1: |
+| Work through [System design interview questions with solutions- # ](#system-design-interview-questions-with-solutions) | Some | Many | Most |
+| Work through [Object-oriented design interview questions with solutions- # ](#object-oriented-design-interview-questions-with-solutions) | Some | Many | Most |
+| Review [Additional system design interview questions- # ](#additional-system-design-interview-questions) | Some | Many | Most |
 
 ## How to approach a system design interview question
 
@@ -221,7 +221,7 @@ Start broad and go deeper in a few areas.  It helps to know a little about vario
 
 The system design interview is an **open-ended conversation**.  You are expected to lead it.
 
-You can use the following steps to guide the discussion.  To help solidify this process, work through the [System design interview questions with solutions](#system-design-interview-questions-with-solutions) section using the following steps.
+You can use the following steps to guide the discussion.  To help solidify this process, work through the [System design interview questions with solutions- # ](#system-design-interview-questions-with-solutions) section using the following steps.
 
 ### Step 1: Outline use cases, constraints, and assumptions
 
@@ -245,10 +245,10 @@ Outline a high level design with all important components.
 
 ### Step 3: Design core components
 
-Dive into details for each core component.  For example, if you were asked to [design a url shortening service](solutions/system_design/pastebin/README.md), discuss:
+Dive into details for each core component.  For example, if you were asked to [design a url shortening service - int ](solutions/system_design/pastebin/README.md), discuss:
 
 * Generating and storing a hash of the full url
-    * [MD5](solutions/system_design/pastebin/README.md) and [Base62](solutions/system_design/pastebin/README.md)
+    * [MD5 - int ](solutions/system_design/pastebin/README.md) and [Base62 - int ](solutions/system_design/pastebin/README.md)
     * Hash collisions
     * SQL or NoSQL
     * Database schema
@@ -265,15 +265,15 @@ Identify and address bottlenecks, given the constraints.  For example, do you ne
 * Caching
 * Database sharding
 
-Discuss potential solutions and trade-offs.  Everything is a trade-off.  Address bottlenecks using [principles of scalable system design](#index-of-system-design-topics).
+Discuss potential solutions and trade-offs.  Everything is a trade-off.  Address bottlenecks using [principles of scalable system design- # ](#index-of-system-design-topics).
 
 ### Back-of-the-envelope calculations
 
-You might be asked to do some estimates by hand.  Refer to the [Appendix](#appendix) for the following resources:
+You might be asked to do some estimates by hand.  Refer to the [Appendix- # ](#appendix) for the following resources:
 
 * [Use back of the envelope calculations- ext ](http://highscalability.com/blog/2011/1/26/google-pro-tip-use-back-of-the-envelope-calculations-to-choo.html)
-* [Powers of two table](#powers-of-two-table)
-* [Latency numbers every programmer should know](#latency-numbers-every-programmer-should-know)
+* [Powers of two table- # ](#powers-of-two-table)
+* [Latency numbers every programmer should know- # ](#latency-numbers-every-programmer-should-know)
 
 ### Source(s) and further reading
 
@@ -292,61 +292,61 @@ Check out the following links to get a better idea of what to expect:
 
 | Question | |
 |---|---|
-| Design Pastebin.com (or Bit.ly) | [Solution](solutions/system_design/pastebin/README.md) |
-| Design the Twitter timeline and search (or Facebook feed and search) | [Solution](solutions/system_design/twitter/README.md) |
-| Design a web crawler | [Solution](solutions/system_design/web_crawler/README.md) |
-| Design Mint.com | [Solution](solutions/system_design/mint/README.md) |
-| Design the data structures for a social network | [Solution](solutions/system_design/social_graph/README.md) |
-| Design a key-value store for a search engine | [Solution](solutions/system_design/query_cache/README.md) |
-| Design Amazon's sales ranking by category feature | [Solution](solutions/system_design/sales_rank/README.md) |
-| Design a system that scales to millions of users on AWS | [Solution](solutions/system_design/scaling_aws/README.md) |
-| Add a system design question | [Contribute](#contributing) |
+| Design Pastebin.com (or Bit.ly) | [Solution - int ](solutions/system_design/pastebin/README.md) |
+| Design the Twitter timeline and search (or Facebook feed and search) | [Solution - int ](solutions/system_design/twitter/README.md) |
+| Design a web crawler | [Solution - int ](solutions/system_design/web_crawler/README.md) |
+| Design Mint.com | [Solution - int ](solutions/system_design/mint/README.md) |
+| Design the data structures for a social network | [Solution - int ](solutions/system_design/social_graph/README.md) |
+| Design a key-value store for a search engine | [Solution - int ](solutions/system_design/query_cache/README.md) |
+| Design Amazon's sales ranking by category feature | [Solution - int ](solutions/system_design/sales_rank/README.md) |
+| Design a system that scales to millions of users on AWS | [Solution - int ](solutions/system_design/scaling_aws/README.md) |
+| Add a system design question | [Contribute- # ](#contributing) |
 
 ### Design Pastebin.com (or Bit.ly)
 
-[View exercise and solution](solutions/system_design/pastebin/README.md)
+[View exercise and solution - int ](solutions/system_design/pastebin/README.md)
 
 ![Imgur](images/4edXG0T.png)
 
 ### Design the Twitter timeline and search (or Facebook feed and search)
 
-[View exercise and solution](solutions/system_design/twitter/README.md)
+[View exercise and solution - int ](solutions/system_design/twitter/README.md)
 
 ![Imgur](images/jrUBAF7.png)
 
 ### Design a web crawler
 
-[View exercise and solution](solutions/system_design/web_crawler/README.md)
+[View exercise and solution - int ](solutions/system_design/web_crawler/README.md)
 
 ![Imgur](images/bWxPtQA.png)
 
 ### Design Mint.com
 
-[View exercise and solution](solutions/system_design/mint/README.md)
+[View exercise and solution - int ](solutions/system_design/mint/README.md)
 
 ![Imgur](images/V5q57vU.png)
 
 ### Design the data structures for a social network
 
-[View exercise and solution](solutions/system_design/social_graph/README.md)
+[View exercise and solution - int ](solutions/system_design/social_graph/README.md)
 
 ![Imgur](images/cdCv5g7.png)
 
 ### Design a key-value store for a search engine
 
-[View exercise and solution](solutions/system_design/query_cache/README.md)
+[View exercise and solution - int ](solutions/system_design/query_cache/README.md)
 
 ![Imgur](images/4j99mhe.png)
 
 ### Design Amazon's sales ranking by category feature
 
-[View exercise and solution](solutions/system_design/sales_rank/README.md)
+[View exercise and solution - int ](solutions/system_design/sales_rank/README.md)
 
 ![Imgur](images/MzExP06.png)
 
 ### Design a system that scales to millions of users on AWS
 
-[View exercise and solution](solutions/system_design/scaling_aws/README.md)
+[View exercise and solution - int ](solutions/system_design/scaling_aws/README.md)
 
 ![Imgur](images/jj3A5N8.png)
 
@@ -360,14 +360,14 @@ Check out the following links to get a better idea of what to expect:
 
 | Question | |
 |---|---|
-| Design a hash map | [Solution](solutions/object_oriented_design/hash_table/hash_map.ipynb)  |
-| Design a least recently used cache | [Solution](solutions/object_oriented_design/lru_cache/lru_cache.ipynb)  |
-| Design a call center | [Solution](solutions/object_oriented_design/call_center/call_center.ipynb)  |
-| Design a deck of cards | [Solution](solutions/object_oriented_design/deck_of_cards/deck_of_cards.ipynb)  |
-| Design a parking lot | [Solution](solutions/object_oriented_design/parking_lot/parking_lot.ipynb)  |
-| Design a chat server | [Solution](solutions/object_oriented_design/online_chat/online_chat.ipynb)  |
-| Design a circular array | [Contribute](#contributing)  |
-| Add an object-oriented design question | [Contribute](#contributing) |
+| Design a hash map | [Solution - int ](solutions/object_oriented_design/hash_table/hash_map.ipynb)  |
+| Design a least recently used cache | [Solution - int ](solutions/object_oriented_design/lru_cache/lru_cache.ipynb)  |
+| Design a call center | [Solution - int ](solutions/object_oriented_design/call_center/call_center.ipynb)  |
+| Design a deck of cards | [Solution - int ](solutions/object_oriented_design/deck_of_cards/deck_of_cards.ipynb)  |
+| Design a parking lot | [Solution - int ](solutions/object_oriented_design/parking_lot/parking_lot.ipynb)  |
+| Design a chat server | [Solution - int ](solutions/object_oriented_design/online_chat/online_chat.ipynb)  |
+| Design a circular array | [Contribute- # ](#contributing)  |
+| Add an object-oriented design question | [Contribute- # ](#contributing) |
 
 ## System design topics: start here
 
@@ -461,7 +461,7 @@ Waiting for a response from the partitioned node might result in a timeout error
 
 Responses return the most readily available version of the data available on any node, which might not be the latest.  Writes might take some time to propagate when the partition is resolved.
 
-AP is a good choice if the business needs to allow for [eventual consistency](#eventual-consistency) or when the system needs to continue working despite external errors.
+AP is a good choice if the business needs to allow for [eventual consistency- # ](#eventual-consistency) or when the system needs to continue working despite external errors.
 
 ### Source(s) and further reading
 
@@ -472,7 +472,7 @@ AP is a good choice if the business needs to allow for [eventual consistency](#e
 
 ## Consistency patterns
 
-With multiple copies of the same data, we are faced with options on how to synchronize them so clients have a consistent view of the data.  Recall the definition of consistency from the [CAP theorem](#cap-theorem) - Every read receives the most recent write or an error.
+With multiple copies of the same data, we are faced with options on how to synchronize them so clients have a consistent view of the data.  Recall the definition of consistency from the [CAP theorem- # ](#cap-theorem) - Every read receives the most recent write or an error.
 
 ### Weak consistency
 
@@ -527,10 +527,10 @@ Active-active failover can also be referred to as master-master failover.
 
 #### Master-slave and master-master
 
-This topic is further discussed in the [Database](#database) section:
+This topic is further discussed in the [Database- # ](#database) section:
 
-* [Master-slave replication](#master-slave-replication)
-* [Master-master replication](#master-master-replication)
+* [Master-slave replication- # ](#master-slave-replication)
+* [Master-master replication- # ](#master-master-replication)
 
 ### Availability in numbers
 
@@ -679,7 +679,7 @@ Additional benefits include:
     * Removes the need to install [X.509 certificates- ext ](https://en.wikipedia.org/wiki/X.509) on each server
 * **Session persistence** - Issue cookies and route a specific client's requests to same instance if the web apps do not keep track of sessions
 
-To protect against failures, it's common to set up multiple load balancers, either in [active-passive](#active-passive) or [active-active](#active-active) mode.
+To protect against failures, it's common to set up multiple load balancers, either in [active-passive- # ](#active-passive) or [active-active- # ](#active-active) mode.
 
 Load balancers can route traffic based on various metrics, including:
 
@@ -687,16 +687,16 @@ Load balancers can route traffic based on various metrics, including:
 * Least loaded
 * Session/cookies
 * [Round robin or weighted round robin- ext ](https://www.g33kinfo.com/info/round-robin-vs-weighted-round-robin-lb)
-* [Layer 4](#layer-4-load-balancing)
-* [Layer 7](#layer-7-load-balancing)
+* [Layer 4- # ](#layer-4-load-balancing)
+* [Layer 7- # ](#layer-7-load-balancing)
 
 ### Layer 4 load balancing
 
-Layer 4 load balancers look at info at the [transport layer](#communication) to decide how to distribute requests.  Generally, this involves the source, destination IP addresses, and ports in the header, but not the contents of the packet.  Layer 4 load balancers forward network packets to and from the upstream server, performing [Network Address Translation (NAT)- ext ](https://www.nginx.com/resources/glossary/layer-4-load-balancing/).
+Layer 4 load balancers look at info at the [transport layer- # ](#communication) to decide how to distribute requests.  Generally, this involves the source, destination IP addresses, and ports in the header, but not the contents of the packet.  Layer 4 load balancers forward network packets to and from the upstream server, performing [Network Address Translation (NAT)- ext ](https://www.nginx.com/resources/glossary/layer-4-load-balancing/).
 
 ### Layer 7 load balancing
 
-Layer 7 load balancers look at the [application layer](#communication) to decide how to distribute requests.  This can involve contents of the header, message, and cookies.  Layer 7 load balancers terminate network traffic, reads the message, makes a load-balancing decision, then opens a connection to the selected server.  For example, a layer 7 load balancer can direct video traffic to servers that host videos while directing more sensitive user billing traffic to security-hardened servers.
+Layer 7 load balancers look at the [application layer- # ](#communication) to decide how to distribute requests.  This can involve contents of the header, message, and cookies.  Layer 7 load balancers terminate network traffic, reads the message, makes a load-balancing decision, then opens a connection to the selected server.  For example, a layer 7 load balancer can direct video traffic to servers that host videos while directing more sensitive user billing traffic to security-hardened servers.
 
 At the cost of flexibility, layer 4 load balancing requires less time and computing resources than Layer 7, although the performance impact can be minimal on modern commodity hardware.
 
@@ -708,7 +708,7 @@ Load balancers can also help with horizontal scaling, improving performance and 
 
 * Scaling horizontally introduces complexity and involves cloning servers
     * Servers should be stateless: they should not contain any user-related data like sessions or profile pictures
-    * Sessions can be stored in a centralized data store such as a [database](#database) (SQL, NoSQL) or a persistent [cache](#cache) (Redis, Memcached)
+    * Sessions can be stored in a centralized data store such as a [database- # ](#database) (SQL, NoSQL) or a persistent [cache- # ](#cache) (Redis, Memcached)
 * Downstream servers such as caches and databases need to handle more simultaneous connections as upstream servers scale out
 
 ### Disadvantage(s): load balancer
@@ -780,7 +780,7 @@ Additional benefits include:
 
 Separating out the web layer from the application layer (also known as platform layer) allows you to scale and configure both layers independently.  Adding a new API results in adding application servers without necessarily adding additional web servers.  The **single responsibility principle** advocates for small and autonomous services that work together.  Small teams with small services can plan more aggressively for rapid growth.
 
-Workers in the application layer also help enable [asynchronism](#asynchronism).
+Workers in the application layer also help enable [asynchronism- # ](#asynchronism).
 
 ### Microservices
 
@@ -790,7 +790,7 @@ Pinterest, for example, could have the following microservices: user profile, fo
 
 ### Service Discovery
 
-Systems such as [Consul- ext ](https://www.consul.io/docs/index.html), [Etcd- ext ](https://coreos.com/etcd/docs/latest), and [Zookeeper- ext ](http://www.slideshare.net/sauravhaloi/introduction-to-apache-zookeeper) can help services find each other by keeping track of registered names, addresses, and ports.  [Health checks- ext ](https://www.consul.io/intro/getting-started/checks.html) help verify service integrity and are often done using an [HTTP](#hypertext-transfer-protocol-http) endpoint.  Both Consul and Etcd have a built in [key-value store](#key-value-store) that can be useful for storing config values and other shared data.
+Systems such as [Consul- ext ](https://www.consul.io/docs/index.html), [Etcd- ext ](https://coreos.com/etcd/docs/latest), and [Zookeeper- ext ](http://www.slideshare.net/sauravhaloi/introduction-to-apache-zookeeper) can help services find each other by keeping track of registered names, addresses, and ports.  [Health checks- ext ](https://www.consul.io/intro/getting-started/checks.html) help verify service integrity and are often done using an [HTTP- # ](#hypertext-transfer-protocol-http) endpoint.  Both Consul and Etcd have a built in [key-value store- # ](#key-value-store) that can be useful for storing config values and other shared data.
 
 ### Disadvantage(s): application layer
 
@@ -839,7 +839,7 @@ The master serves reads and writes, replicating writes to one or more slaves, wh
 ##### Disadvantage(s): master-slave replication
 
 * Additional logic is needed to promote a slave to a master.
-* See [Disadvantage(s): replication](#disadvantages-replication) for points related to **both** master-slave and master-master.
+* See [Disadvantage(s): replication- # ](#disadvantages-replication) for points related to **both** master-slave and master-master.
 
 #### Master-master replication
 
@@ -856,7 +856,7 @@ Both masters serve reads and writes and coordinate with each other on writes.  I
 * You'll need a load balancer or you'll need to make changes to your application logic to determine where to write.
 * Most master-master systems are either loosely consistent (violating ACID) or have increased write latency due to synchronization.
 * Conflict resolution comes more into play as more write nodes are added and as latency increases.
-* See [Disadvantage(s): replication](#disadvantages-replication) for points related to **both** master-slave and master-master.
+* See [Disadvantage(s): replication- # ](#disadvantages-replication) for points related to **both** master-slave and master-master.
 
 ##### Disadvantage(s): replication
 
@@ -902,7 +902,7 @@ Federation (or functional partitioning) splits up databases by function.  For ex
 
 Sharding distributes data across different databases such that each database can only manage a subset of the data.  Taking a users database as an example, as the number of users increases, more shards are added to the cluster.
 
-Similar to the advantages of [federation](#federation), sharding results in less read and write traffic, less replication, and more cache hits.  Index size is also reduced, which generally improves performance with faster queries.  If one shard goes down, the other shards are still operational, although you'll want to add some form of replication to avoid data loss.  Like federation, there is no single central master serializing writes, allowing you to write in parallel with increased throughput.
+Similar to the advantages of [federation- # ](#federation), sharding results in less read and write traffic, less replication, and more cache hits.  Index size is also reduced, which generally improves performance with faster queries.  If one shard goes down, the other shards are still operational, although you'll want to add some form of replication to avoid data loss.  Like federation, there is no single central master serializing writes, allowing you to write in parallel with increased throughput.
 
 Common ways to shard a table of users is either through the user's last name initial or the user's geographic location.
 
@@ -924,7 +924,7 @@ Common ways to shard a table of users is either through the user's last name ini
 
 Denormalization attempts to improve read performance at the expense of some write performance.  Redundant copies of the data are written in multiple tables to avoid expensive joins.  Some RDBMS such as [PostgreSQL- ext ](https://en.wikipedia.org/wiki/PostgreSQL) and Oracle support [materialized views- ext ](https://en.wikipedia.org/wiki/Materialized_view) which handle the work of storing redundant information and keeping redundant copies consistent.
 
-Once data becomes distributed with techniques such as [federation](#federation) and [sharding](#sharding), managing joins across data centers further increases complexity.  Denormalization might circumvent the need for such complex joins.
+Once data becomes distributed with techniques such as [federation- # ](#federation) and [sharding- # ](#sharding), managing joins across data centers further increases complexity.  Denormalization might circumvent the need for such complex joins.
 
 In most systems, reads can heavily outnumber writes 100:1 or even 1000:1.  A read resulting in a complex database join can be very expensive, spending a significant amount of time on disk operations.
 
@@ -971,7 +971,7 @@ Benchmarking and profiling might point you to the following optimizations.
 
 ##### Avoid expensive joins
 
-* [Denormalize](#denormalization) where performance demands it.
+* [Denormalize- # ](#denormalization) where performance demands it.
 
 ##### Partition tables
 
@@ -990,15 +990,15 @@ Benchmarking and profiling might point you to the following optimizations.
 
 ### NoSQL
 
-NoSQL is a collection of data items represented in a **key-value store**, **document store**, **wide column store**, or a **graph database**.  Data is denormalized, and joins are generally done in the application code.  Most NoSQL stores lack true ACID transactions and favor [eventual consistency](#eventual-consistency).
+NoSQL is a collection of data items represented in a **key-value store**, **document store**, **wide column store**, or a **graph database**.  Data is denormalized, and joins are generally done in the application code.  Most NoSQL stores lack true ACID transactions and favor [eventual consistency- # ](#eventual-consistency).
 
-**BASE** is often used to describe the properties of NoSQL databases.  In comparison with the [CAP Theorem](#cap-theorem), BASE chooses availability over consistency.
+**BASE** is often used to describe the properties of NoSQL databases.  In comparison with the [CAP Theorem- # ](#cap-theorem), BASE chooses availability over consistency.
 
 * **Basically available** - the system guarantees availability.
 * **Soft state** - the state of the system may change over time, even without input.
 * **Eventual consistency** - the system will become consistent over a period of time, given that the system doesn't receive input during that period.
 
-In addition to choosing between [SQL or NoSQL](#sql-or-nosql), it is helpful to understand which type of NoSQL database best fits your use case(s).  We'll review **key-value stores**, **document stores**, **wide column stores**, and **graph databases** in the next section.
+In addition to choosing between [SQL or NoSQL- # ](#sql-or-nosql), it is helpful to understand which type of NoSQL database best fits your use case(s).  We'll review **key-value stores**, **document stores**, **wide column stores**, and **graph databases** in the next section.
 
 #### Key-value store
 
@@ -1071,7 +1071,7 @@ Wide column stores offer high availability and high scalability.  They are often
 
 In a graph database, each node is a record and each arc is a relationship between two nodes.  Graph databases are optimized to represent complex relationships with many foreign keys or many-to-many relationships.
 
-Graphs databases offer high performance for data models with complex relationships, such as a social network.  They are relatively new and are not yet widely-used; it might be more difficult to find development tools and resources.  Many graphs can only be accessed with [REST APIs](#representational-state-transfer-rest).
+Graphs databases offer high performance for data models with complex relationships, such as a social network.  They are relatively new and are not yet widely-used; it might be more difficult to find development tools and resources.  Many graphs can only be accessed with [REST APIs- # ](#representational-state-transfer-rest).
 
 ##### Source(s) and further reading: graph
 
@@ -1143,15 +1143,15 @@ Databases often benefit from a uniform distribution of reads and writes across i
 
 ### Client caching
 
-Caches can be located on the client side (OS or browser), [server side](#reverse-proxy-web-server), or in a distinct cache layer.
+Caches can be located on the client side (OS or browser), [server side- # ](#reverse-proxy-web-server), or in a distinct cache layer.
 
 ### CDN caching
 
-[CDNs](#content-delivery-network) are considered a type of cache.
+[CDNs- # ](#content-delivery-network) are considered a type of cache.
 
 ### Web server caching
 
-[Reverse proxies](#reverse-proxy-web-server) and caches such as [Varnish- ext ](https://www.varnish-cache.org/) can serve static and dynamic content directly.  Web servers can also cache requests, returning responses without having to contact application servers.
+[Reverse proxies- # ](#reverse-proxy-web-server) and caches such as [Varnish- ext ](https://www.varnish-cache.org/) can serve static and dynamic content directly.  Web servers can also cache requests, returning responses without having to contact application servers.
 
 ### Database caching
 
@@ -1559,7 +1559,7 @@ REST is focused on exposing data.  It minimizes the coupling between client/serv
 
 ## Security
 
-This section could use some updates.  Consider [contributing](#contributing)!
+This section could use some updates.  Consider [contributing- # ](#contributing)!
 
 Security is a broad topic.  Unless you have considerable experience, a security background, or are applying for a position that requires knowledge of security, you probably won't need to know more than the basics:
 
@@ -1674,7 +1674,7 @@ Handy metrics based on numbers above:
 | Design a garbage collection system | [stuffwithstuff.com- ext ](http://journal.stuffwithstuff.com/2013/12/08/babys-first-garbage-collector/)<br/>[washington.edu- ext ](http://courses.cs.washington.edu/courses/csep521/07wi/prj/rick.pdf) |
 | Design an API rate limiter | [https://stripe.com/blog/- ext ](https://stripe.com/blog/rate-limiters) |
 | Design a Stock Exchange (like NASDAQ or Binance) | [Jane Street- ext ](https://youtu.be/b1e4t2k2KJY)<br/>[Golang Implementation- ext ](https://around25.com/blog/building-a-trading-engine-for-a-crypto-exchange/)<br/>[Go Implementation- ext ](http://bhomnick.net/building-a-simple-limit-order-in-go/) |
-| Add a system design question | [Contribute](#contributing) |
+| Add a system design question | [Contribute- # ](#contributing) |
 
 ### Real world architectures
 
@@ -1714,7 +1714,7 @@ Handy metrics based on numbers above:
 | Misc | **Dapper** - Distributed systems tracing infrastructure | [research.google.com- ext ](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/36356.pdf)
 | Misc | **Kafka** - Pub/sub message queue from LinkedIn | [slideshare.net- ext ](http://www.slideshare.net/mumrah/kafka-talk-tri-hug) |
 | Misc | **Zookeeper** - Centralized infrastructure and services enabling synchronization | [slideshare.net- ext ](http://www.slideshare.net/sauravhaloi/introduction-to-apache-zookeeper) |
-| | Add an architecture | [Contribute](#contributing) |
+| | Add an architecture | [Contribute- # ](#contributing) |
 
 ### Company architectures
 
@@ -1798,12 +1798,12 @@ Looking to add a blog?  To avoid duplicating work, consider adding your company 
 
 ## Under development
 
-Interested in adding a section or helping complete one in-progress?  [Contribute](#contributing)!
+Interested in adding a section or helping complete one in-progress?  [Contribute- # ](#contributing)!
 
 * Distributed computing with MapReduce
 * Consistent hashing
 * Scatter gather
-* [Contribute](#contributing)
+* [Contribute- # ](#contributing)
 
 ## Credits
 
